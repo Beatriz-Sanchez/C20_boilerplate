@@ -34,13 +34,14 @@ function draw() {
   //atualizando motor
   Engine.update(engine);
   
+  //adicionando cor
+  fill("gold");
   //desenho da bola
   ellipseMode(RADIUS);
   ellipse(bola.position.x,bola.position.y,25);
   
-  //adicionando cor a tudo o que vem depois
-  fill("dodgerblue")
-  
+  //adicionando cor
+  fill("dodgerblue");
   //desenho do solo
   rectMode(CENTER);
   rect(solo.position.x,solo.position.y,400,50);
