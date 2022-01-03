@@ -38,6 +38,9 @@ function draw() {
   ellipseMode(RADIUS);
   ellipse(bola.position.x,bola.position.y,25);
   
+  //adicionando cor a tudo o que vem depois
+  fill("dodgerblue")
+  
   //desenho do solo
   rectMode(CENTER);
   rect(solo.position.x,solo.position.y,400,50);
